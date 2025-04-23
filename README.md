@@ -108,15 +108,11 @@ keplergl-example/
 │   ├── county_unemployment/
 │   │   ├── config.json       # Pre-configured unemployment visualization settings
 │   │   └── data.geojson     # County unemployment GeoJSON data
-│   └── world_flights/
-│       ├── config_soe14h.json     # Pre-configured flight visualization settings
-│       └── world_flights_soe14h.json  # World flights data
 ```
 
 The included datasets demonstrate different visualization capabilities:
 - NYC Taxi Trips: Shows point and arc layers for taxi pickup and dropoff locations
 - County Unemployment: Demonstrates choropleth mapping of unemployment rates
-- World Flights: Visualizes global flight paths and patterns
 
 You can load these local files directly into the application using the "Add Data" button.
 
